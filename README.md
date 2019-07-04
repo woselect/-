@@ -5,4 +5,4 @@
 # 演示动画
 ![image](https://github.com/woselect/CuteMusic/blob/master/app/src/music1.gif?raw=true)
 ![image](https://github.com/woselect/CuteMusic/blob/master/app/src/music2.gif?raw=true)
-![image](https://github.com/woselect/CuteMusic/blob/master/app/src/music3.gif?raw=true)
+![image](https://github.com/woselect/CuteMusic/blob/master/app/src/m33.gif?raw=true)

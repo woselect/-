@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="@drawable/search_bg"
+    android:layout_height="33dp">
+
+
+    <EditText
+        android:id="@+id/search_edit"
+        android:layout_weight="8"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:hint="搜索"
+        android:cursorVisible="false"
+        android:imeOptions="actionSearch"
+        android:singleLine="true"
+        android:padding="2dp"
+        android:background="@null"
+        />
+
+    <ImageView
+        android:id="@+id/search_enter"
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_sousuo"
+        android:scaleType="centerInside"
+        android:background="@null"
+        />
+
+</LinearLayout>

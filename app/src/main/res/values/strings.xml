@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CuteMusic</string>
+    <string name="action_contact">Contact</string>
+    <string name="time">时间</string>
+    <string name="siger">歌曲名称</string>
+    <string name="artist">歌手</string>
+</resources>

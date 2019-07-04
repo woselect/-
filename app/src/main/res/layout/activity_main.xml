@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/main_backgroud"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        />
+
+    <com.astuetz.PagerSlidingTabStrip
+        android:id="@+id/tabs"
+        android:backgroundTint="#0066CF"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:background="@color/touming3"
+        app:pstsDividerColor="#8fadcb"
+        app:pstsIndicatorHeight="2dp"
+
+        />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/RelativeLayout1"
+        android:layout_below="@+id/tabs"
+        tools:context=".activity.MainActivity" />
+
+
+
+    <include
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/touming8"
+        layout="@layout/music_mian_bottom_layout"
+        android:layout_alignParentBottom="true"/>
+
+
+
+
+
+</RelativeLayout>
